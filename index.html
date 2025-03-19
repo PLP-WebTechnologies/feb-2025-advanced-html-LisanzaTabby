@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Contact Us Page </title>
+</head>
+<body>
+    <header>
+        <h1>👋 Hi, Welcome to Tabitha's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!---Main Section---->
+    <main>
+        <h2>Contact us Socials</h2>
+        <!----Ordered List----->
+        <section>
+            <ol type="i">
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Email</a></li>
+            </ol>
+        </section>
+        <!---External image---->
+        <img src="https://images.pexels.com/photos/12903294/pexels-photo-12903294.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Female Programmer">
+        <!-----Contacts table----->
+        <section>
+            <h2>Contacts Table</h2>
+            <table border="1">
+                <thead>                    
+                    <tr>
+                        <td>Name</td>
+                        <td>Address</td>
+                        <td>Mobile</td>
+                        <td>Email</td>
+                    </tr>                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tabitha Lisanza</td>
+                        <td>P.O.Box 00100</td>
+                        <td>+254701234567</td>
+                        <td>lisanzatabitha@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Gladys Pendo</td>
+                        <td>P.O.Box 20100</td>
+                        <td>+254701234567</td>
+                        <td>gpendo@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Kelvin</td>
+                        <td>P.O.Box 40100</td>
+                        <td>+254701234567</td>
+                        <td>kelivin2@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Eric</td>
+                        <td>P.O.Box 40100</td>
+                        <td>+254701234567</td>
+                        <td>eric.n@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Faith Lugano</td>
+                        <td>P.O.Box 60100</td>
+                        <td>+254701234567</td>
+                        <td>l.faith123@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!---Registration Form---->
+        <section>
+            <h3>What to create an Account with us❓</h3>
+            <h3>Registration form</h3>
+            <form method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="e.g.Tabitha Lisanza"required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="e.g.lisanzatabitha@gmail.com"required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password1" placeholder="Enter your pasword"required><br><br>
+                <label for="password">Reenter-Password:</label>
+                <input type="password" name="password2" placeholder="Re-Enter Password"required><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob"required><br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                <input type="radio" id="prefer not to say" name="gender" value="Prefer not to say"> <label for="female">Prefer not to say</label>
+                <br><br>
+
+                <label for="Country">Country of Residence:</label>
+                <select name="gender"required>
+                    <option>--Select Country--</option>
+                    <option value="female">Kenya</option>
+                    <option value="male">Somalia</option>
+                    <option value="Ethopia">Ethopia</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Nigeria">Nigeria</option>
+                </select><br><br>
+
+                <label for="Service">Services Interested:</label>
+                <input type="checkbox" name="services" value="logodesign"><label for="logodesign">Logo Design</label>
+                <input type="checkbox" name="services" value="Web design"><label for="Web design">Web Design</label>
+                <input type="checkbox" name="services" value="Videoediting"><label for="Videoediting">Video Editing</label>
+                <input type="checkbox" name="services" value="ITConsulting"><label for="ITConsulting">IT Consulting</label>
+                <input type="checkbox" name="services" value="WebDev"><label for="WebDev">Web Development</label><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        
+    </main>
+    <!---Footer Section--->
+    <footer>
+        ©️2025.Copyrights are Reserved
+    </footer>
+    
+</body>
+</html>
